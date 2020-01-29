@@ -9,8 +9,6 @@
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
     ~/.bashrc: bashrc
-    ~/.tmux: tmux
-    ~/.tmux-themepack: tmux-themepack
     ~/.vim: vim
     ~/.config/fish: config/fish
     ~/.config/omf: config/omf
