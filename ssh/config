@@ -1,0 +1,9 @@
+Host meme-backend
+	HostName meme-test.limit.network
+	User ec2-user
+	IdentityFile ~/.ssh/strivelabs.pem
+
+Host locatium
+	HostName 54.167.46.165
+	User ec2-user
+	IdentityFile ~/.ssh/locatium.pem

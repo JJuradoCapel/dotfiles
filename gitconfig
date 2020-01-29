@@ -1,0 +1,8 @@
+[user]
+	name = Juan Antonio Jurado
+	mail = jajurado@celtiberian.es
+	email = juanan@strivelabs.io
+[core]
+	autocrlf = false
+[url "https://"]
+	insteadOf = git+https://
