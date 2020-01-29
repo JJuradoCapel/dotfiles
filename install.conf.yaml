@@ -13,6 +13,11 @@
     ~/.config/fish: config/fish
     ~/.config/omf: config/omf
 - shell:
+  -
+    command: sudo echo "Elevating..."
+    stdin: true
+    stdout: true
+    stderr: true
   - sudo apt-add-repository ppa:fish-shell/release-3
   - sudo apt-get update
   - sudo apt-get install -y fish
@@ -21,3 +26,5 @@
     command: chsh -s $(which fish)
     stdin: true
     stdout: true
+  - git clone -q https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+  - tmux source ~/.tmux.conf
