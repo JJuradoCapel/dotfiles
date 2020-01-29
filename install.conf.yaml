@@ -9,4 +9,9 @@
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
 
-
+- shell
+  - sudo apt-add-repository ppa:fish-shell/release-3
+  - sudo apt-get update
+  - sudo apt-get install fish
+  - echo $(where fish) | sudo tee -a /etc/shells
+  - chsh -s $(where fish)
