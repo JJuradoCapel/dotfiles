@@ -5,3 +5,5 @@
 	autocrlf = false
 [url "https://"]
 	insteadOf = git+https://
+[pull]
+	rebase = false
